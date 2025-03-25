@@ -1,37 +1,37 @@
 package ex1.classes;
 
-public class NoGenericMethods <T> {
-    private T object1;
-    private T object2;
-    private T object3;
+public class NoGenericMethods {
+    private String string1;
+    private String string2;
+    private String string3;
 
-    public T getObject1() {
-        return object1;
+    public String getString1() {
+        return string1;
     }
 
-    public void setObject1(T object1) {
-        this.object1 = object1;
+    public void setString1(String string1) {
+        this.string1 = string1;
     }
 
-    public T getObject2() {
-        return object2;
+    public String getObject2() {
+        return string2;
     }
 
-    public void setObject2(T object2) {
-        this.object2 = object2;
+    public void setObject2(String object2) {
+        this.string2 = object2;
     }
 
-    public T getObject3() {
-        return object3;
+    public String getString3() {
+        return string3;
     }
 
-    public void setObject3(T object3) {
-        this.object3 = object3;
+    public void setString3(String string3) {
+        this.string3 = string3;
     }
 
-    public NoGenericMethods(T object1, T object2, T object3) {
-        this.object3 = object3;
-        this.object1 = object1;
-        this.object2 = object2;
+    public NoGenericMethods(String object1, String object2, String object3) {
+        this.string1 = object1;
+        this.string2 = object2;
+        this.string3 = object3;
     }
 }
